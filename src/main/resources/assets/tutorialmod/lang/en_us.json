@@ -1,0 +1,26 @@
+{
+  "item.tutorialmod.sapphire": "Sapphire",
+  "item.tutorialmod.peckio": "peckio",
+  "item.tutorialmod.natalia": "natalia",
+  "item.tutorialmod.pollo": "pollo",
+  "item.tutorialmod.papitas": "papitas",
+  "item.tutorialmod.queso": "queso",
+  "item.tutorialmod.tartara": "tartara",
+  "item.tutorialmod.chuzo": "Chuzo",
+  "item.tutorialmod.atom": "Atom",
+  "item.tutorialmod.cole": "Cole",
+  "item.tutorialmod.metal_detector": "Metal Detector",
+
+  "block.tutorialmod.sapphire_block": "Block of Greed",
+  "block.tutorialmod.sapphire_ore": "Sapphire Ore",
+  "block.tutorialmod.sound_block": "Block of Sound",
+  "block.tutorialmod.gravity_block": "Gravity Block",
+
+  "tooltip.tutorialmod.metal_detector.tooltip": "I dont know what to put here...",
+
+
+  "cretivetab.tutorial_tab": "Mis mods"
+}
+
+
+

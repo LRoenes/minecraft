@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "@$@",
+    "+++"
+  ],
+  "key": {
+    "#": {
+      "item": "tutorialmod:tartara"
+    },
+    "@": {
+      "item": "tutorialmod:papitas"
+    },
+    "$": {
+      "item": "tutorialmod:queso"
+    },
+    "+": {
+      "item": "tutorialmod:pollo"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:chuzo",
+    "count": 1
+  }
+}
