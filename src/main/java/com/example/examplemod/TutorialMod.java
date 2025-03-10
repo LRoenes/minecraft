@@ -73,7 +73,7 @@ public class TutorialMod
             event.accept(ModItems.CHUZO);
             event.accept(ModItems.COLE);
             event.accept(ModItems.ATOM);
-            event.accept(ModBlocks.GRAVITY_BLOCK);
+
         }
 
 

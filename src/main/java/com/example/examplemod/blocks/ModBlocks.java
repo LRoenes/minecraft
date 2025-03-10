@@ -1,7 +1,6 @@
 package com.example.examplemod.blocks;
 
 import com.example.examplemod.TutorialMod;
-import com.example.examplemod.blocks.custom.GravityBlock;
 import com.example.examplemod.blocks.custom.SoundBlock;
 import com.example.examplemod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -17,7 +16,6 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.rmi.registry.Registry;
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -33,9 +31,6 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
             ()-> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK).sound(SoundType.BAMBOO)));
-
-    public static final RegistryObject<Block> GRAVITY_BLOCK = registerBlock("gravity_block",
-            ()-> new GravityBlock(BlockBehaviour.Properties.copy(Blocks.MAGMA_BLOCK).sound(SoundType.CHERRY_LEAVES)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

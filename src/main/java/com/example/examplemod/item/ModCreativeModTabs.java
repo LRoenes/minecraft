@@ -32,7 +32,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.CHUZO.get());
                         output.accept(ModItems.COLE.get());
                         output.accept(ModItems.ATOM.get());
-                        output.accept(ModBlocks.GRAVITY_BLOCK.get());
+
                     })
                     .build());
 
